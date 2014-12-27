@@ -1,0 +1,22 @@
+/**
+*
+* Developed by Prashant Patel
+*
+**/
+
+#sample-div{
+/** Internet Explorer **/
+background: -ms-linear-gradient(#3166B2, #3166B2) repeat scroll 0 0 transparent;
+filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr=#3166B2, endColorstr=#1F4171);
+/** Mozilla Firefox **/
+background: -moz-linear-gradient(#3166B2, #3166B2) repeat scroll 0 0 transparent !important;
+-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+
+/** Google Chrome **/
+background: -webkit-gradient(linear, center top, center bottom, from(#3166B2), to(#1F4171));
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+
+border: 1px solid #1F4171;
+
+height: 51px;
+}
